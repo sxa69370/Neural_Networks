@@ -17,7 +17,7 @@ def string_alternative(s):
     # iterating each character of string
     for i in s:
         # If the character is  not present in output, then adds to it, if not skips the character. So only unique characters stored in output
-        if i not in output:
+        if i.lower() not in output.lower():
             output = output + i
     return output  
 
