@@ -1,9 +1,9 @@
-#Question: Write a program that takes two strings from the user: first_name, last_name. Pass these variables to fullname function that should return the (full name). 
-# o For example: ▪ First_name = “your first name”, last_name = “your last name”
-# ▪ Full_name = “your full name” 
-# o Write function named “string_alternative” that returns every other char in the full_name string. 
-# Str = “Good evening” 
-# Output: Go vnn 
+# Question: Write a program that takes two strings from the user: first_name, last_name. Pass these variables to fullname function that should return the (full name). 
+#   ▪  For example: First_name = “your first name”, last_name = “your last name”
+#   ▪ Full_name = “your full name” 
+# Write function named “string_alternative” that returns every other char in the full_name string. 
+#  ▪ Str = “Good evening” 
+#  ▪ Output: Go vnn 
 
 firstname = input("Enter First Name: ")
 lastname = input("Enter Last Name: ")
