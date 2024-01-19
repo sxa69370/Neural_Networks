@@ -2,8 +2,10 @@
 #  1) Nested Interactive loop. 
 #  2) List comprehensions 
 
-l =  [150,155, 145, 148]
- 
+s = input("Enter the heights in inches with space in between each and then press enter: ")
+# Converting the string of inches into list by using split function and converting them into float type.
+heights = [float(i) for i in s.split()]
+
 def inch_to_cms(l):
     output1 = []
     output2 = []
@@ -17,4 +19,4 @@ def inch_to_cms(l):
     print("Output from Nested Interactive Loop: {}, Output from List Comprehensions:{}".format(output1,output2))
 
 if __name__ == "__main__":
-  inch_to_cms(l)
+  inch_to_cms(heights)
