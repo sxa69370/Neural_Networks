@@ -1,6 +1,4 @@
-# Write a python program to find the wordcount in a file (input.txt) for each line and then print the output. 
-# Finally store the output in output.txt file. 
-
+# Write a python program to find the wordcount in a file (input.txt) for each line and then print the output. Finally store the output in output.txt file. 
 
 def wordcount():
     output = dict()
