@@ -11,10 +11,10 @@ def inch_to_cms(l):
     output2 = []
     # Nested Interactive loop
     for i in l:
-        output1.append(round(i / 2.54,2))
+        output1.append(round(i*2.54,2))
 
     # List comprehensions   
-    output2 = [round(i/2.54,2) for i in l]
+    output2 = [round(i*2.54,2) for i in l]
        
     print("Output from Nested Interactive Loop: {}, Output from List Comprehensions:{}".format(output1,output2))
 
