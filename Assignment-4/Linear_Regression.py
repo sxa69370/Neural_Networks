@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 # Step a: Load the dataset
-file_path = "C:/Users/aures/OneDrive/Documents/College Docs/Neural Networks & Deep Learning/Programming_Assignments/Neural_Networks/Assignment-4/Salary_Data.csv"  # Update this path
+file_path = "Salary_Data.csv"  # Update this path
 df_salary = pd.read_csv(file_path)
 
 # Step b: Split the data into training and testing sets

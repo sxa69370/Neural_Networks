@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file_path = "C:/Users/aures/OneDrive/Documents/College Docs/Neural Networks & Deep Learning/Programming_Assignments/Neural_Networks/Assignment-4/data.csv"
+file_path = "data.csv"
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(file_path)
