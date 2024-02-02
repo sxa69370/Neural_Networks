@@ -8,20 +8,20 @@ import matplotlib.pyplot as plt
 file_path = "Salary_Data.csv"  # Update this path
 df_salary = pd.read_csv(file_path)
 
-# Step b: Split the data into training and testing sets
-X = df_salary.iloc[:, :-1].values  # Assuming the independent variable is the first column
-y = df_salary.iloc[:, 1].values  # Assuming the dependent variable (Salary) is the second column
+# Step b: Splitting the data into training and testing sets
+X = df_salary.iloc[:, :-1].values  # Independent variable is the first column
+y = df_salary.iloc[:, 1].values  # Dependent variable (Salary) is the second column
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1/3, random_state=0)
 
-# Step c: Train the Linear Regression model on the training set
+# Step c: Linear Regression model on the training set
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
 
 # Step d: Predict the Test set results
 y_pred = regressor.predict(X_test)
 
-# Step e: Calculate the mean squared error
+# Step e: Calculating the mean squared error
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)
 
