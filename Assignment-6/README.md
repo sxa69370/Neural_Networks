@@ -1,4 +1,4 @@
 
 
-https://github.com/Jhansi-Veluvolu/Neural_Network_Assignment_6/assets/156739529/8ef2c613-edfe-4df7-876c-01d62ff56e15
+https://github.com/sxa69370/Neural_Networks/assets/156716103/b319963d-7eb3-4f9d-bb45-a9ad65ed9940
 
